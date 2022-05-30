@@ -2,5 +2,4 @@ django
 pytelegrambotapi
 gunicorn
 whitenoise
-json
 requests
