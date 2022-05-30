@@ -133,3 +133,6 @@ ALLOWED_HOSTS = ['*']
 X_FRAME_OPTIONS = '*'
 
 SESSION_SAVE_EVERY_REQUEST = True
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
