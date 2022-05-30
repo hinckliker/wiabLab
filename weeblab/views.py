@@ -20,7 +20,7 @@ def about(request):
     n=auth.AllLikeCount();
     userform = UserForm();
     message=""
-    if request.POST and not request.is_ajax():
+    if request.POST and not (request.headers.get('x-requested-with') == 'XMLHttpRequest'):
       if request.POST.__getitem__("type")=="tel":
         name = request.POST.__getitem__("Name")
         tel = request.POST.__getitem__("Tel") 
