@@ -32,7 +32,7 @@ def about(request):
         request.session['user'] = id
         request.session.modified = True
     
-    if request.is_ajax():
+    if request.headers.get('x-requested-with') == 'XMLHttpRequest':
       if (request.session.get("logged",False)):
         user = request.session.get("user");
         count = auth.LikeCount(user)
