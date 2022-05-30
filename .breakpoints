@@ -1,0 +1,54 @@
+{
+  "files": {
+    "mysite/static/js/Untitled.js": [
+      {
+        "id": "4a54299c-d838-430d-870c-8ff5ba105a3c",
+        "line": 87,
+        "version": 31,
+        "index": 2392
+      }
+    ],
+    "mysite/static/js/telebot.py": [
+      {
+        "id": "10873d4e-5ee7-4e1b-9d89-48f823aa8ff3",
+        "line": 3,
+        "version": 50,
+        "index": 21
+      }
+    ],
+    "mysite/views.py": [
+      {
+        "id": "1c1e34fa-cdce-45ee-a625-d12abf752fd5",
+        "line": 11,
+        "version": 1234,
+        "index": 242
+      },
+      {
+        "id": "a843d051-82dc-490b-a1ee-326ecc4930ce",
+        "line": 12,
+        "version": 1234,
+        "index": 262
+      },
+      {
+        "id": "7bb0ae70-22e9-44f9-910e-b161eed0f6f2",
+        "line": 15,
+        "version": 1234,
+        "index": 396
+      },
+      {
+        "id": "39a5351b-71e3-460a-9e2c-f62e27b38687",
+        "line": 26,
+        "version": 1234,
+        "index": 737
+      }
+    ],
+    "templates/prototype1.html": [
+      {
+        "id": "5b026096-408f-411f-bc61-fb80ded02489",
+        "line": 3,
+        "version": 1218,
+        "index": 35
+      }
+    ]
+  }
+}

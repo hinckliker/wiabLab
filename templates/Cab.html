@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///E:/Sacred%20place/Web-Lab/prototype%202.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	 
+<script src="{% static 'js/jquery-3.3.1.js' %}" type="text/javascript"></script>
+	<script src="{% static 'js/Untitled.js' %}" type="text/javascript"></script>
+	
+
+    <link href="{% static 'css/style.css' %} " rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<div class="glass">
+			
+			<div class="hat ">
+				<div class="logo" align="left"> 
+					<div align="center" class="logo_text" id="z">
+				 	Ваш специалист
+				 	
+				 </div></div>
+				<div align="right" class="in_button">
+			 	<button id="q12" onclick="regShow()" style="background: rgb(0, 77, 64);">Регистрация</button>
+			 	<button id="q13">Вход</button>
+			 	</div>
+			 	<div class="navigation">
+			 		<a href="prototype2.html">
+			 		<button class="navbutton">Главная</button>
+			 		</a>
+			 		<a href="prototype1.html">
+			 		<button class="navbutton"  >Про нас</button>
+			 		</a>
+
+			 	</div>
+			</div>
+		<div align="right" id="i1" class="order">
+			<div class="order_tabF" id="i2" onclick="orderShow()">
+			<div align="center" style=" padding: 10px;letter-spacing: 5px;font-size: 30px; font-family: cursive; word-wrap: break-word;">
+				
+			</div>
+				
+			</div>
+			<div class="order_tab" id="i3" align="left">
+					<!-- <div > -->
+						<div style="max-height: 30px">
+						<button class="close" align="center" onclick="orderShow()" style="position: sticky; top: 0;left: 0">x</button>
+						<center>Спец-заказ</center>
+						</div>
+							<form method="post">
+							
+						<ul type="none" align="center" class=" order_in">
+
+							<li align="left">
+								<input type="textbox" name="Name" placeholder="Имя" title="Ведите ваше имя" style="width: 175px;" required="">*
+							</li>
+
+							<li align="left"> <input type="textbox" name="Tel" placeholder="Телефон" pattern="8[0-9]{10,11}" style="width: 175px;" required="" title="Введите ваш номер телефона 8 xxx xxx xx xx ">* </li>
+							<li align="left"> <input type="email" name="mail" placeholder="Эл. Почта" style="width: 175px;"></li>
+							<li align="left"><button type="submit" name="go" style="position: relative;height: 20px; left: 37.5px;">go </button></li>
+							
+						</ul>
+						<div align="center">* - объязательны к заполнению</div>
+						</form>
+					<!-- </div> -->
+				</div>
+		</div>
+		<div class="content">
+			<div align="center" style="width: 100%">
+			Тут будет личный кабинет (когда-нибудь)
+			</div>
+		</div>
+	</div>
+
+	<div id="regBack" onclick="regClose()" align="center">
+		<div id="regMenu" align="center">
+			регистрация
+		</div>
+	</div>
+
+</body></html>

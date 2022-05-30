@@ -1,0 +1,193 @@
+		body {
+			margin: 0px;
+		}
+		.glass {
+			position: absolute;
+			width: 80%;
+			left: 10%;
+			height: 200%;
+			background: #00695C;
+			
+		}
+		.hat {
+			position: fixed;
+			width: inherit;
+			height: 175px;
+			background: #004D40;
+			box-shadow: 0 2px 4px -2px black;
+			z-index: 100;
+		}
+		.logo {
+			
+		width: 100px;
+		height: 100px;
+		background: red;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position: inherit;
+		margin: 15px;
+		background-image: url(https://thumbs.gfycat.com/ScalyActiveGoat-max-1mb.gif);
+		background-position:  45%;
+		box-shadow: 0 0 10px black ;
+
+		}
+		
+		.logo_text{
+
+				font-family: "Comic Sans MS", "Comic Sans", cursive;
+			    color: white;
+   		 		position: relative;
+   				top: 40px;
+   				left: 130px;
+    			width: 243px;
+    			height: 40px;
+    			font-size: 30px;
+		}
+
+		a{
+			text-decoration-line: none;
+		}
+
+		button{
+		    background: #004D40; 
+    		border: none;
+    		color: white;
+    		width:100px;
+    		height: 50px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    outline:none;
+    		cursor: pointer;
+		}
+
+    button:hover {
+			  background: rgb(0,105,92);
+    }
+	
+
+		.in_button {
+			    position: inherit;
+    			top: 50px;
+    			right: 10%;
+		}
+      
+		.order_button {
+			background: #FFEA00;
+    		border: none;
+    		color: black;
+    		width:100px;
+    		height: 50px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    outline:none;
+    		cursor: pointer;
+    		background-image: -webkit-linear-gradient(bottom,#CDDC39 10%, #FFEA00 30%,#FFFF00 100%);
+		}
+	
+		.order{
+			position: inherit;
+			z-index: 1;
+    	top: 200px;
+    	right: -25px;
+			height: 350px;
+			width: 450px;
+			
+		}
+
+      
+		.order_tab{
+			position: relative;
+			height: 244px;
+			width: 265px;
+			left: -50px;
+			top: -247px;
+			background: yellow;
+			display: none;
+			box-shadow: 0 0 10px black;
+			white-space: nowrap;
+			box-sizing: border-box;
+		}
+      
+		.order_tabF{
+		 background: yellow;
+		 position: relative;
+		 height: 250px;
+		 width: 50px;
+		 box-shadow: 0 0 10px black;
+		 z-index: 2;
+		 cursor: pointer;
+		 -moz-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;     
+		}
+      
+		.close {
+			background: red;
+			height: 30px;
+			width: 30px;
+			box-sizing: border-box;
+		}
+		li{
+			padding: 10px;
+		}
+		input {
+			box-sizing: border-box;
+		}
+		#regMenu{
+			position: absolute;
+			left: 35%;
+			z-index: 106;
+			background: yellow;
+			opacity:0; 
+			-moz-opacity:0; 
+			filter:alpha(opacity=0);
+			width: 400px;
+			height: 400px;
+			box-sizing: border-box;
+			display:none;
+			top: 15%;
+
+		}
+		#regBack{
+			z-index:103; 
+			position:fixed; 
+			background-color:#000; 
+			opacity:0; 
+			-moz-opacity:0; 
+			filter:alpha(opacity=0);
+			width:100%; 
+			height:100%; 
+			top:0; 
+			left:0;
+			cursor:pointer;
+			display:none;
+		}
+		
+		.navigation{
+			    position: absolute;
+   			 	left: 40%;
+    			bottom: 0;
+		}
+		.navbutton:hover {
+			background: rgb(0,105,92);
+		}
+
+    .like{
+      background:rgb(0,105,0) ;
+    }
+
+		.content{
+			position: absolute;
+			z-index: 0;
+			top: 175px;
+			padding: 10px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+
+		.sumbit_text:invalid:not(:focus){
+			box-shadow: 0px 0px 3px 2px rgb(255 0 0 / 50%) inset;
+		}
